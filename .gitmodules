@@ -1,0 +1,9 @@
+[submodule "extern/scarv-cpu"]
+	path = extern/scarv-cpu
+	url = ssh://git@github.com/scarv/scarv-cpu.git
+[submodule "extern/scarv-soc"]
+	path = extern/scarv-soc
+	url = ssh://git@github.com/scarv/scarv-soc.git
+[submodule "extern/texmf"]
+	path = extern/texmf
+	url = ssh://git@github.com/scarv/texmf.git
