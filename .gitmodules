@@ -7,3 +7,6 @@
 [submodule "extern/texmf"]
 	path = extern/texmf
 	url = https://github.com/scarv/texmf.git
+[submodule "extern/wiki"]
+	path = extern/wiki
+	url = https://github.com/scarv/scarv.wiki.git

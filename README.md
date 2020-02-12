@@ -73,7 +73,8 @@ ISE).
 └── extern                  - external resources (e.g., submodules)
     ├── scarv-cpu             - submodule: scarv/scarv-cpu
     ├── scarv-soc             - submodule: scarv/scarv-soc
-    └── texmf                 - submodule: scarv/texmf
+    ├── texmf                 - submodule: scarv/texmf
+    └── wiki                  - submodule: scarv/scarv.wiki
 ```
 
 *Originally* this was a 
