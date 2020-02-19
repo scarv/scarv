@@ -148,7 +148,7 @@ dedicated submodule.  Specifically, these include:
 
    | Command                   | Description                                                                          |
    | :------------------------ | :----------------------------------------------------------------------------------- |
-   | `make build-doc`          | build the [Latex](https://www.latex-project.org)-based documentation                 |
+   | `make build-doc`          | build the [LaTeX](https://www.latex-project.org)-based documentation                 |
    | `make spotless`           | remove *everything* built in `${REPO_HOME}/build`                                    |
 
 <!--- -------------------------------------------------------------------- --->
