@@ -131,7 +131,7 @@ dedicated submodule.  Specifically, these include:
 2. Execute
 
    ```sh
-   git clone https://github.com/scarv/scarv.git
+   git clone https://github.com/scarv/scarv.git ./scarv
    cd ./scarv
    git submodule update --init --recursive
    source ./bin/conf.sh
@@ -146,17 +146,30 @@ dedicated submodule.  Specifically, these include:
 3. Use targets in the top-level `Makefile` to drive a set of
    common tasks, e.g.,
 
-   | Command                  | Description
-   | :----------------------- | :----------------------------------------------------------------------------------- |
-   | `make doc`               | build the [Latex](https://www.latex-project.org)-based documentation                 |
-   | `make    clean`          | clean-up (e.g., remove everything built in `${REPO_HOME}/build`)                     |
+   | Command                   | Description                                                                          |
+   | :------------------------ | :----------------------------------------------------------------------------------- |
+   | `make build-doc`          | build the [Latex](https://www.latex-project.org)-based documentation                 |
+   | `make spotless`           | remove *everything* built in `${REPO_HOME}/build`                                    |
+
+<!--- -------------------------------------------------------------------- --->
+
+## Questions?
+
+- use the
+  [groups.io](https://groups.io)-based [discussion group](https://scarv.groups.io/g/scarv),
+- raise an
+  [issue](https://github.com/scarv/scarv/issues),
+- raise a
+  [pull request](https://github.com/scarv/scarv/pulls),
+- drop us an 
+  [email](mailto:info@scarv.org?subject=scarv).
 
 <!--- -------------------------------------------------------------------- --->
 
 ## Acknowledgements
 
-This work has been supported in part by EPSRC via grant 
-[EP/R012288/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R012288/1),
-under the [RISE](http://www.ukrise.org) programme.
+This work has been supported in part
+by EPSRC via grant
+[EP/R012288/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R012288/1) (under the [RISE](http://www.ukrise.org) programme).
 
 <!--- -------------------------------------------------------------------- --->
